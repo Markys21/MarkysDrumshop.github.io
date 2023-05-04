@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+.navbars {
+   
+    background: linear-gradient(rgb(220, 206, 206), rgb(233, 200, 233));
+}
+.home-logo {
+    filter: grayscale(90%) invert(100%);
+
+}
+.nav-hover:hover {
+    transform:translateY(10px);
+    text-decoration-line: underline;
+}
+.nav-hover {
+    transition: all .5s;
+}
+
+/* header */
+.landing-page {
+    background: url("../img/pexels-antoni-shkraba-production-8044193.jpg") no-repeat;
+    background-size:100% 100%;
+    color: whitesmoke;
+    
+}
+.landing-page h2 {
+    color: rgb(255, 186, 76);
+    font-weight: bolder;
+}
+.logos-img {
+    opacity: 0.9;
+    filter: grayscale(100%) invert(100%)
+}
+.logo-partners {
+    height: 70px;
+}
+/* landing-page */
+/* about us */
+.about-us {
+    background: linear-gradient(rgb(233, 200, 233), rgb(237, 230, 230));
+    
+}
+/* about us */
+/* images */
+.div-images {
+    filter: saturate(3);
+        -webkit-filter:hue-rotate(100);
+    opacity: 0.9;
+    background: linear-gradient(rgb(245, 239, 245), rgb(245, 226, 226));
+}
+/* images */
+/* featured drums */
+.div-featured {
+  
+    background: linear-gradient(rgb(245, 226, 226), rgb(242, 225, 216));
+    
+}
+.div-featured h2 p {
+    font-size: 15px;
+}
+.div-featured h1 {
+    font-size: 46px;
+}
+.div-featured p {
+    font-size: 18px;
+}
+.main-featured {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.main-featured > div {
+    text-align: center;
+    justify-content: space-between;
+}
+.main-featured h2 {
+    font-size: 30px;
+}
+.main-featured p {
+    font-size: 60px;
+}
+.main-featured span {
+    font-size: 20px;
+    color: red;
+}
+.main-featured ul {
+    font-size: 18px;
+    
+}
+.main-featured button {
+    margin: 20px;
+    padding: 15px;
+    color: #894a4a;
+}
+.sub-left {
+    margin: 30px 0px 30px 0px;
+    border: 10px solid white;
+    filter: saturate(3);  
+}
+.sub-center {
+    margin: 30px 0px 30px 0px;
+    border: 10px solid white;
+    filter: saturate(3);  
+}
+.sub-right {
+    margin: 30px 0px 30px 0px;
+    border: 10px solid white;
+    filter: saturate(3);  
+}
+/* featured drums */
+.testimonials {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(234, 222, 188), rgba(251, 247, 211, 0.882));
+}
+
+
+/* property */
+.div-property {
+    border-top:  2px solid rgb(255, 185, 180);
+    background: linear-gradient(rgb(242, 225, 216), rgb(245, 226, 226));
+}
+
+.icon-container {
+    color: gray;
+}
+.icon-container p {
+   padding: 20px;
+}
+/* property */
+.loc {
+    background: linear-gradient(rgb(242, 225, 216), rgb(245, 226, 226));
+}
+/* footer */
+footer {
+
+    background-color:#161616;
+    color: antiquewhite;
+}
+
+footer h1 {
+    font-size: 25px;
+    color: rgb(226, 234, 181);
+}
+footer span {
+    color: rgb(241, 85, 85);
+}
+.footer-copy {
+    background-color: black;
+   color: aliceblue;
+}
+div span {
+    color: rgb(241, 85, 85);
+}
+/* footer */
+.modal-h1 {
+   
+    background: linear-gradient(rgb(245, 226, 226), rgb(242, 225, 216));
+}
+.m-content {
+    padding: 20px;
+}

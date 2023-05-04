@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.navbars {
+    background: linear-gradient(rgb(220, 206, 206), rgb(233, 200, 233));
+}
+.home-logo {
+    filter: grayscale(90%) invert(100%);
+    
+}
+.nav-hover:hover {
+    transform:translateY(10px);
+    text-decoration-line: underline;
+}
+.nav-hover {
+    transition: all .5s;
+}
+
+/* header */
+
+/* landing-page */
+.landing-page {
+    background: url("../img/aliane-schwartzhaupt-QdmUva6qBTk-unsplash.jpg") no-repeat;
+    background-size:100% 100%;
+    color: whitesmoke;
+    filter:grayscale(60%) invert(5%);
+}
+.landing-page h2 {
+    color: rgb(255, 186, 76);
+    font-weight: bolder;
+}
+.logos-img {
+    opacity: 0.9;
+    filter: grayscale(100%) invert(100%)
+}
+
+/* landing-page */
+
+/* about us */
+.about-us {
+    background: linear-gradient(rgb(233, 200, 233), rgb(237, 230, 230));
+}
+/* about us */
+/* images */
+.div-images {
+    filter: saturate(3);
+        -webkit-filter:hue-rotate(100);
+    opacity: 0.9;
+    background: linear-gradient(rgb(245, 239, 245), rgb(245, 226, 226));
+}
+/* images */
+/* featured drums */
+.div-featured {
+    background: linear-gradient(rgb(245, 226, 226), rgb(242, 225, 216));
+}
+.sub-left {
+    filter: saturate(3);  
+}
+.sub-center {
+    filter: saturate(3);  
+}
+.sub-right { 
+    filter: saturate(3);  
+}
+/* featured drums */
+/* property */
+.loc {
+    background: linear-gradient(rgb(242, 225, 216), rgb(245, 226, 226));
+    border-top:  2px solid rgb(255, 185, 180);
+}
+.div-property {
+    border-top:  2px solid rgb(255, 185, 180);
+    background: linear-gradient(rgb(242, 225, 216), rgb(245, 226, 226));
+}
+.icon-container {
+    color: gray;
+}
+/* property */
+/* advatage */
+.advantage {
+    background: linear-gradient(rgb(236, 47, 91), rgba(254, 199, 159, 0.882));
+}
+.modal-bg {
+    background: linear-gradient(rgb(236, 47, 91), rgba(254, 199, 159, 0.882));
+}
+
+/* advatage */
+
+/* testimonials */
+.testimonials {
+    background: linear-gradient(rgb(234, 222, 188), rgba(251, 247, 211, 0.882));  
+}
+.bbm {
+    height: 180px;
+    width: 190px;
+    border-radius: 150px 150px;
+}
+
+.testi-containers span {
+    color: #de9337;
+}
+/* testimonials */
+/* footer */
+footer {
+    font-size: 10px;
+    background-color:#161616;
+    color: antiquewhite;
+        
+}
+footer h1 {
+    color: rgb(226, 234, 181);
+}
+footer span {
+    color: rgb(241, 85, 85);
+}
+.footer-copy {
+    background-color: black;
+   color: aliceblue;
+}
+div span {
+    color: rgb(241, 85, 85);
+}
+/* footer */
+.modal-h1 {
+   
+    background: linear-gradient(rgb(245, 226, 226), rgb(242, 225, 216));
+}

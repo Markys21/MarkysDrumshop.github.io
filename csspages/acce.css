@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(rgb(236, 232, 232), rgb(242, 222, 242));
+}
+.navbars {
+   
+    background: linear-gradient(rgb(220, 206, 206), rgb(233, 200, 233));
+}
+.home-logo {
+    filter: grayscale(90%) invert(100%);
+}
+.nav-hover:hover {
+    transform:translateY(10px);
+    text-decoration-line: underline;
+}
+.nav-hover {
+    transition: all .5s;
+}
+/* header */
+.navbars {
+   
+    background: linear-gradient(rgb(220, 206, 206), rgb(233, 200, 233));
+}
+.home-logo {
+    filter: grayscale(90%) invert(100%);
+}
+.nav-hover:hover {
+    transform:translateY(10px);
+    text-decoration-line: underline;
+}
+.nav-hover {
+    transition: all .5s;
+}
+
+/* header */
+.loc {
+   
+    background: linear-gradient(rgb(242, 225, 216), rgb(245, 226, 226));
+}
+/* footer */
+footer {
+
+    background-color:#161616;
+    color: antiquewhite;
+}
+
+footer h1 {
+    color: rgb(226, 234, 181);
+}
+footer span {
+    color: rgb(241, 85, 85);
+}
+.footer-copy {
+    background-color: black;
+   color: aliceblue;
+}
+div span {
+    color: rgb(241, 85, 85);
+}
+/* footer */
